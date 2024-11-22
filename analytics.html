@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+  <header>
+    <h1>Boat Sales Outlet</h1>
+        <nav>
+            <div class="boat-gallery" onclick="toggleMenu()">☰</div>  
+            <ul id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="analytics.html">Analytics</a></li>
+            </ul> 
+        </nav> 
+    </header> 
+    <main class="analytics">
+        <section>
+            <h2>Reservation Analytics</h2>
+            <div class="chart-container">
+                <canvas id="myReservation"></canvas>
+            </div>
+        </section>
+    </main>
+  
+    <footer class="container-fluid text-center">
+        <p><i>Boat Sales Outlet llc</i></p>
+      </footer>
+      <script src="./js/main.js"></script>
+</body>
+</html>

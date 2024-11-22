@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+  <header>
+    <h1>Boat Sales Outlet</h1>
+        <nav>
+            <div class="boat-gallery" onclick="toggleMenu()">☰</div>  
+            <ul id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="analytics.html">Analytics</a></li>
+            </ul> 
+        </nav> 
+    </header>  
+    <main class="make-reservation">
+      <section>
+        <h2>Make Your Reservation</h2>
+        <div class="form-container">
+          <form id="reservationForm">
+              <label for="boatType">Boat Type:</label>
+              <select id="boatType" name="boatType" required>
+                <option value="">Boat type</option>
+                <option value="2025 Outer Reef Yachts">2025 Outer Reef Yachts</option>
+                <option value="Beneteau Flyer Boat">Beneteau Flyer Boat</option>
+                <option value="De Antonio Yachts">De Antonio Yachts</option>
+                <option value="Midnight Express Solstice">Midnight Express Solstice</option>
+                <option value="Tidewater-boats">Tidewater Boats</option>
+                <option value="kayak">Kayak</option>
+                <option value="canoe">Canoe</option>
+                <option value="paddleBoard">Paddle Board</option>
+              </select>
+              <label for="rentalDuration">Rental Duration (Days): </label>
+              <input type="text" id="rentalDuration" name="rentalDuration" required>
+              <button type="submit" id="submit">Submit</button>
+          </form>
+        </div>
+        <h3>Your Requests</h3>
+        <ul id="reservationList" class="boat-items"></ul>
+      </section> 
+    </main>
+      <p>Have a question?  Want to know more? <br>
+      Feel free to contact us using the form below or reach out to us directly.</p>
+
+      <p><strong>Our Contact Information:</strong></p>
+      <p>Phone: (123) 456-7890</p>
+      <p>Email: info@boatsalesoutlet.com</p>
+      <p>Address: 123 Boat Street, Tampa, FL, 33511</p>
+
+  
+  <section class="background-image">
+    <img src="img/BoatSalesOutlet.jpeg" alt="Background Image" width="1575" height="800">
+  </section>
+
+  <footer class="container-fluid text-center">
+    <p><i>Boat Sales Outlet llc</i></p>
+  </footer>
+  <script src="./js/main.js"></script>
+</body>
+</html>

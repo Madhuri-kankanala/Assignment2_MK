@@ -1,0 +1,82 @@
+<!--  
+    Author: Madhuri Kankanala
+    Date: 11/18/2024
+    Description: Website for Boat Sales.
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Boat Sales Outlet!</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <header>
+            <h1> Boat Sales Outlet</h1>
+            <nav>
+                <div class="boat-gallery" onclick="toggleMenu()">☰</div>  
+                <ul id="navLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="analytics.html">Analytics</a></li>
+                </ul> 
+            </nav> 
+        </header>           
+          <style>
+            .container{
+                max-width: 100%;
+                max-height: 500px;
+                overflow: hidden; 
+                position: sticky; 
+            }
+            
+            img {text-align: center;}
+            
+          </style>
+        <main>
+            <section class="container">
+                <div class="container-div">
+                    <img src="img/BoatSalesOutlet.jpeg" alt="Boat" width="1505" height="600"><br>
+                </div>
+            </section>
+                <div class="container-cont">
+                    <p><strong>Explore Our Curated Selection of Boats For Sale!</strong></p>
+                    <p> <i>Experience the ultimate boating lifestyle.</i></p><br>
+                    <button onclick="location.href='contactus.html'">Make Your Reservation</button>
+                </div>
+            
+            <section class="boat-gallery">
+                <div class="boat-items">
+                    <div class="boat-item">
+                        <img src="img/2025-outer-reef-yachts.jpg" alt="2025 Outer Reef Yachts">
+                        <p>2025 Outer Reef Yachts</p>
+                    </div>
+                    <div class="boat-item">
+                        <img src="img/beneteau-Flyer-boat.png" alt="Beneteau Flyer Boat">
+                        <p>Beneteau Flyer Boat</p>
+                    </div>
+                    <div class="boat-item">
+                        <img src="img/DE_ANTONIO_YACHTS.jpg" alt="De Antonio Yachts">
+                        <p>De Antonio Yachts</p>
+                    </div>
+                    <div class="boat-item">
+                        <img src="img/Midnight_Express_Solstice.jpg" alt="Midnight Express Solstice">
+                        <p>Midnight Express Solstice</p>
+                    </div>
+                    <div class="boat-item">
+                        <img src="img/Tidewater-boats.jpg" alt="Tidewater-boats">
+                        <p>Tidewater Boats</p>
+                    </div>    
+                </div>
+            </section>
+        </main> 
+        <footer class="container-fluid text-center">
+            <p><i>Boat Sales Outlet llc</i></p>
+        </footer>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
